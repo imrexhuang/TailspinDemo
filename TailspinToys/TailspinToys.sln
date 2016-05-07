@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{718D8B22-A59F-4553-916D-3879A4A8EEB3}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -36,39 +38,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.Web", "Tailspin.WebUpgraded\Tailspin.Web.csproj", "{58610F2B-D2AA-4C77-85F2-4304F5D4FF12}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tspascoal.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Tailspin.Admin.App\\Tailspin.Admin.App.csproj
-		SccProjectName1 = Tailspin.Admin.App
-		SccLocalPath1 = Tailspin.Admin.App
-		SccProjectUniqueName2 = Tailspin.Infrastructure\\Tailspin.Infrastructure.csproj
-		SccProjectName2 = Tailspin.Infrastructure
-		SccLocalPath2 = Tailspin.Infrastructure
-		SccProjectUniqueName3 = Tailspin.Model\\Tailspin.Model.csproj
-		SccProjectName3 = Tailspin.Model
-		SccLocalPath3 = Tailspin.Model
-		SccProjectUniqueName4 = Tailspin.Models\\Tailspin.Models.modelproj
-		SccProjectName4 = Tailspin.Models
-		SccLocalPath4 = Tailspin.Models
-		SccProjectUniqueName5 = Tailspin.Schema\\Tailspin.Schema.sqlproj
-		SccProjectName5 = Tailspin.Schema
-		SccLocalPath5 = Tailspin.Schema
-		SccProjectUniqueName6 = Tailspin.SimpleSqlRepository\\Tailspin.SimpleSqlRepository.csproj
-		SccProjectName6 = Tailspin.SimpleSqlRepository
-		SccLocalPath6 = Tailspin.SimpleSqlRepository
-		SccProjectUniqueName7 = Tailspin.Test.Model\\Tailspin.Test.Model.csproj
-		SccProjectName7 = Tailspin.Test.Model
-		SccLocalPath7 = Tailspin.Test.Model
-		SccProjectUniqueName8 = Tailspin.WebUpgraded\\Tailspin.Web.csproj
-		SccProjectName8 = Tailspin.WebUpgraded
-		SccLocalPath8 = Tailspin.WebUpgraded
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = TailspinToys.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -168,5 +137,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE628CD7-F67E-4BD8-972F-AD7B52E0BABF} = {718D8B22-A59F-4553-916D-3879A4A8EEB3}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TailspinToys.vsmdi
 	EndGlobalSection
 EndGlobal
